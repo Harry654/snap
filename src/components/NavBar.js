@@ -3,7 +3,7 @@ import './styles/NavBar.css';
 
 function NavBar() {
   return (
-    <div className="nav-bar">
+    <nav className="nav-bar">
         <h1 className="header">snap</h1>
 
         <div className="option-nav">
@@ -23,9 +23,11 @@ function NavBar() {
               <p className="listed-items transition">Hooli</p>
             </div>
         </div>
+
         <p className="nav">Careers</p>
+        
         <p className="nav">About</p>
-    </div>
+    </nav>
   )
 }
 
